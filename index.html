@@ -67,6 +67,7 @@
   
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
   <link rel="preconnect" href="https://documentcloud.adobe.com">
@@ -177,6 +178,17 @@
     ]
   }
   </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JSVXY4NCVK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JSVXY4NCVK');
+  </script>
+
 </head>
 <body>
 
@@ -252,7 +264,7 @@
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2603.19229" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -487,12 +499,11 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@misc{
-  chaudhary2026navtrust,
+      <pre id="bibtex-code"><code>@article{jiang2026navtrust,
   title={NavTrust: Benchmarking Trustworthiness for Embodied Navigation},
-  author={Yash Chaudhary and Huaide Jiang and Yuping Wang and Raghav Sharma and Manan Mehta and Lichao Sun and Zhiwen Fan and Zhengzhong Tu and Jiachen Li},
-  year={2026},
-  url={https://openreview.net/forum?id=ANbAB0tXv3}
+  author={Jiang, Huaide and Chaudhary, Yash and Wang, Yuping and Wang, Zehao and Sharma, Raghav and Mehta, Manan and Zhou, Yang and Sun, Lichao and Fan, Zhiwen and Tu, Zhengzhong and Li, Jiachen},
+  journal={arXiv preprint arXiv:2603.19229},
+  year={2026}
 }</code></pre>
     </div>
 </section>
